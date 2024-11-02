@@ -1,7 +1,7 @@
-import { Product } from '../product/Product'
-import { products } from './helpers/products'
-import { ImageCarousel } from './ImageCarousel'
-import { NavigationBar } from './NavigationBar'
+import { Product } from './product/Product'
+import { products } from './common/helpers/products'
+import { ImageCarousel } from './common/ImageCarousel'
+import { NavigationBar } from './common/NavigationBar'
 
 export const App = () => {
   // Later, productId will be from the URL params.
